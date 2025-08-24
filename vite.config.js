@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // use '/' if deploying to root, or '/your-subpath/' if under a subpath
-});
-
+  base: '/'  // change to '/subpath/' if deploying under a subpath
+})
